@@ -1,0 +1,212 @@
+body { 
+    align-content: center;
+    z-index: 0;
+    background-image: url(beanstalk.png);
+  }
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    border-color: #cccc;
+    border-bottom: #cccc;
+}
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 300px;
+    height: 75px;
+    margin: 0;
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px; 
+}
+ul {
+    list-style-type: none;
+    height: 75px;
+    float: right;
+    border-color: #cccc;
+    border-bottom: #cccc;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: #cccc;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    line-height: 50px;
+    border-bottom: #cccc;
+    border-color: #cccc;
+  }
+  
+  li a:hover {
+    background-color: #cccc;
+  }
+h2 {
+    height: 75px;
+    line-height: 75px;
+    margin: 100px 0px 0px 0px;
+    position: relative;
+    color: #4aaaa5;
+    clear: both;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-color: #cccc;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+}
+img {
+    float: left;
+    margin: 10px 30px 10px 10px;
+}
+p {
+    background-color: #ffffff;
+    text-align: left;
+    float: bottom;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.5;   
+    padding: 30px;
+    margin: 0;
+    box-sizing: inherit;
+}
+.header {
+    float: left;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-color: #cccc;
+    border-bottom: #cccc;
+}
+.navbar {
+    float: right;
+    height: 75px;
+    border-bottom-style: solid;
+    border-color: #cccc;
+}
+.content {
+    margin: auto;
+    z-index: 0;
+    width: 960px;
+}
+.text {
+    float: bottom;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    height: 30px;
+    color: #777777
+}
+.form {
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 30px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+  }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+  
+input[type=submit] {
+  width: 10%;
+  background-color: #4aaa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;    
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+  
+div.gallery:hover {
+  border: 1px solid #777;
+}
+  
+div.gallery img {
+  width: 100%;
+  height: 100%;
+}
+  
+div.desc {
+  position: absolute;
+  width: 208px;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+  
+  
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+  .responsive {
+  width: 49.99999%;
+  margin: 6px 0;
+   }
+}
+  
+@media only screen and (max-width: 500px) {
+  .responsive {
+  width: 100%;
+  }
+}
+  
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.titleLink {
+  background-image: url(https://g2anewsprod02storage.s3.amazonaws.com/app/uploads/2018/10/skyrim_screenshot_01.jpg);
+}
+
